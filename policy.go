@@ -1,6 +1,6 @@
 package venafi
 
-import "venafi-tpp/pkg/const/config"
+import "github.com/tradel/venafi-tpp/pkg/const/config"
 
 type PolicyService struct {
 	client *Client

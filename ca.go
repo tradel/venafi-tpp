@@ -2,8 +2,9 @@ package venafi
 
 import (
 	"strconv"
-	"venafi-tpp/pkg/const/ca"
-	"venafi-tpp/pkg/const/config"
+
+	"github.com/tradel/venafi-tpp/pkg/const/ca"
+	"github.com/tradel/venafi-tpp/pkg/const/config"
 )
 
 type CAService struct {

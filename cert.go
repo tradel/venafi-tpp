@@ -8,7 +8,8 @@ import (
 	"net/http"
 	"strconv"
 	"time"
-	"venafi-tpp/pkg/pem"
+
+	"github.com/tradel/venafi-tpp/pkg/pem"
 )
 
 type CertificateService struct {

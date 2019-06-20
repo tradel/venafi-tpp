@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"io"
 	"net/http"
-	"venafi-tpp/pkg/const/secret_store"
 
-	"venafi-tpp/pkg/pem"
+	"github.com/tradel/venafi-tpp/pkg/const/secret_store"
+	"github.com/tradel/venafi-tpp/pkg/pem"
 )
 
 type X509StoreService struct {

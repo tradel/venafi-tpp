@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strconv"
 	
-	"venafi-tpp/pkg/const/config"
+	"github.com/tradel/venafi-tpp/pkg/const/config"
 )
 
 type ConfigAttribute struct {
